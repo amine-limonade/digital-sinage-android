@@ -24,7 +24,7 @@ export class AppController {
     );
     const data = await client?.RegisterDisplayAsync({
       ...body,
-      serverKey: 'U0S92S62',
+      serverKey: 'TqiNEnMR',
     });
     const response = await parseStringPromise(
       data?.[0]?.ActivationMessage?.$value,
